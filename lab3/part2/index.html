@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,
-initial-scale=1.0">
-    <title>HTML Basic Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             display: flex;
         }
@@ -15,7 +14,7 @@ initial-scale=1.0">
             width: 200px;
             background-color: #f4f4f4;
             padding: 20px;
-            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
             height: 100vh;
         }
         nav a {
@@ -28,47 +27,60 @@ initial-scale=1.0">
             color: #007BFF;
         }
         main {
-            flex:1 ;
+            flex: 1;
             padding: 20px;
         }
         header {
             text-align: center;
             padding: 10px 0;
             background-color: #007BFF;
-            color:white;
+            color: white;
         }
         footer {
             text-align: center;
             padding: 10px 0;
-            background-color: #007BFF;
-            color: white;
+            background-color: #f4f4f4;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
-        
         footer a {
-            color:#007BFF;
+            color: #007BFF;
             text-decoration: none;
-            margin-top: 0 10px;
+            margin: 0 10px;
+        }
+        img {
+            width: 400px;
+            height: 450px;
+        }
+        .center-div {
+            text-align: center; 
         }
     </style>
 </head>
 <body>
     <nav>
         <a href="about.html">About Me</a>
-        <a href="file:///Users/Supachok/Documents/GitHub/engse611/lab3/part1/mycat.html">My Cat</a>
+        <a href="mycat.html">My Cat</a>
         <a href="hobby.html">My Hobby</a>
-        <!--nav menu here-->
     </nav>
     <main>
-        
         <header>
-            <h1>Welcome to My lab</h1>
+            <h1>Welcome to My Lab</h1>
         </header>
-        <p>This is the main content of the page.Click on the menu items to navigate to differents sections</p>
-        <img src="https://th.bing.com/th/id/R.f1f443d870b683b1960fa79cb100187e?rik=agrvfqLTSfuYUg&pid=ImgRaw&r=0" alt="Sleep"style="width:500px;height:500px;>
+        <div class="center-div">
+            <img src="https://static.wikia.nocookie.net/ragnarok_gamepedia_en/images/d/dc/Character_AbyssChaser.jpg/revision/latest?cb=20201016011909" alt="Character Abyss Chaser">
+            <p class="caption">This is the main content page. Click on the menu items to navigate to different sections.</p>
+        </div>
     </main>
-    
     <footer>
-       
+        <p>Contact me: <a href="mailto:examp@example.com">examp@example.com</a></p>
+        <p>Follow me on: 
+            <a href="https://www.facebook.com/?locale=th_TH">Facebook</a> |
+            <a href="https://www.tiktok.com/th-TH/">Tiktok</a> |
+            <a href="https://www.instagram.com/">Instagram</a>
+        </p>
+        <p>© 2024 My Lab</p>
     </footer>
 </body>
 </html>
