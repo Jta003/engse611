@@ -59,6 +59,6 @@ const person = {
 };
 console.log(person);
 
-person.name = "John";
-person.email = 'john@gmail.com';
+person.name = "Jta";
+person.email = 'supachok@gmail.com';
 console.log(person);
